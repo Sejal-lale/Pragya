@@ -1,0 +1,3 @@
+[functions.classify-complaint]
+verify_jwt = false
+
