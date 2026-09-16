@@ -14,10 +14,11 @@
 
 ---
 
-### 🌐 [Test the Live Project Server (Click to Launch)](http://localhost:5173/)
-> **Live Local Development Server**: [http://localhost:5173/](http://localhost:5173/)  
-> *Ready out-of-the-box with live voice AI, camera viewfinders, interactive maps, and demo municipal records!*
+### 🚀 [Experience the Live Production App → https://pragya-xi.vercel.app/](https://pragya-xi.vercel.app/)
+> **Official Live Cloud Deployment**: [https://pragya-xi.vercel.app/](https://pragya-xi.vercel.app/)  
+> *Fully interactive with live multilingual voice AI, real-time camera viewfinders, Nagpur GIS landmark engine, and cloud database synchronization!*
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-pragya--xi.vercel.app-00C7B7?style=for-the-badge&logo=vercel&logoColor=white)](https://pragya-xi.vercel.app/)
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FSejal-lale%2FPragya&env=VITE_SUPABASE_URL,VITE_SUPABASE_ANON_KEY&envDescription=Enter%20your%20Supabase%20Cloud%20credentials&project-name=pragya-civic)
 
 ---
@@ -128,7 +129,7 @@ VITE_GEMINI_API_KEY=your-gemini-api-key
 ```bash
 npm run dev
 ```
-Open **[http://localhost:5173/](http://localhost:5173/)** in your browser!
+Access the application locally or visit the live cloud deployment at **[https://pragya-xi.vercel.app/](https://pragya-xi.vercel.app/)**!
 
 ### 4. Build & Deploy to Vercel
 ```bash
@@ -215,6 +216,6 @@ Contributions to improve municipal governance and citizen welfare are warmly wel
 <div align="center">
 
 Built with ❤️ for Nagpur Municipal Corporation & Digital India 🇮🇳  
-**[Launch Local Demo Server → http://localhost:5173/](http://localhost:5173/)**
+**[Launch Live App → https://pragya-xi.vercel.app/](https://pragya-xi.vercel.app/)**
 
 </div>
