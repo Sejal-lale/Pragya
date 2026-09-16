@@ -18,6 +18,8 @@
 > **Live Local Development Server**: [http://localhost:5173/](http://localhost:5173/)  
 > *Ready out-of-the-box with live voice AI, camera viewfinders, interactive maps, and demo municipal records!*
 
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FSejal-lale%2FPragya&env=VITE_SUPABASE_URL,VITE_SUPABASE_ANON_KEY&envDescription=Enter%20your%20Supabase%20Cloud%20credentials&project-name=pragya-civic)
+
 ---
 
 </div>
@@ -128,11 +130,23 @@ npm run dev
 ```
 Open **[http://localhost:5173/](http://localhost:5173/)** in your browser!
 
-### 4. Build for Production
+### 4. Build & Deploy to Vercel
 ```bash
+# Build locally
 npm run build
 npm run preview
+
+# Deploy to Vercel via CLI
+npx vercel
+
+# Deploy directly to production
+npx vercel --prod
 ```
+
+> **Or Deploy via Vercel Web Dashboard (1-Click)**:
+> 1. Go to [https://vercel.com/new](https://vercel.com/new) and import `Sejal-lale/Pragya`.
+> 2. Add Environment Variables: `VITE_SUPABASE_URL` and `VITE_SUPABASE_ANON_KEY`.
+> 3. Click **Deploy**. Vercel uses the committed `vercel.json` for automatic SPA routing and Edge CDN caching!
 
 ---
 
